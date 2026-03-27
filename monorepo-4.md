@@ -404,3 +404,5 @@ SS nya full screen, terlihat waktu (supaya Asdos tau urutannya). Sisanya bisa As
 Contoh web production:
   - [Frontend - monorepo-gamma-mauve.vercel.app](https://monorepo-gamma-mauve.vercel.app)
   - [Backend - mono-asdos-backend.vercel.app](https://mono-asdos-backend.vercel.app)
+
+Lihat [gambar-gambar ini](https://drive.google.com/drive/folders/1pIejY7qOoMoTg3Kp8sZoWwENFYMxgsvd?usp=drive_link) sebagai referensi (prefix `[submit]` berarti contoh submisi).
