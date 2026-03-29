@@ -4,11 +4,13 @@ export function createOAuthClient() {
   return new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    process.env.GOOGLE_REDIRECT_URI
+    process.env.GOOGLE_REDIRECT_URI,
   );
 }
 
-export function getAuthUrl(oauth2Client: InstanceType<typeof google.auth.OAuth2>) {
+export function getAuthUrl(
+  oauth2Client: InstanceType<typeof google.auth.OAuth2>,
+) {
   return oauth2Client.generateAuthUrl({
     access_type: "offline",
     scope: [
