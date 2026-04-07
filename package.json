@@ -6,5 +6,8 @@
     "dev": "bun run --filter '*' dev",
     "build": "bun run --filter '*' build",
     "start": "bun run --env-file=apps/backend/.env.production --filter '*' start"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.49"
   }
 }
